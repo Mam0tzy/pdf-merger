@@ -1,0 +1,20 @@
+    # Virtual environment
+    venv/
+    *.pyc
+    __pycache__/
+
+    # OS generated files
+    .DS_Store
+    Thumbs.db
+
+    # IDE/Editor specific
+    .idea/
+    .vscode/
+
+    # Secrets (if you add any later)
+    .env*
+    *.env
+
+    # Temporary Uploads (if your temp dir is within the project)
+    # Be careful with this if your temp dir ISN'T ignored by default
+    # UPLOAD_FOLDER/ 
